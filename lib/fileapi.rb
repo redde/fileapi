@@ -1,5 +1,10 @@
+# coding: utf-8
+
 require "fileapi/version"
 
 module Fileapi
-  # Your code goes here...
+  module Rails
+    class Engine < ::Rails::Engine
+    end
+  end
 end
