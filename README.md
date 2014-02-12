@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+add to css-file
+
+	//= require fileapi
+
+add to js-file
+
+	//= require fileapi
 
 ## Contributing
 
