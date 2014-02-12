@@ -136,7 +136,9 @@
   }
 
 .b-dropzone {
-  position: relative; margin-bottom: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden;
   &.active {
   }
 }
@@ -151,7 +153,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 30000;
+  z-index: 100;
   opacity: .2;
   background:#EEDA7C;
   .active & {
@@ -170,6 +172,6 @@
   top: 50%;
   left: 50%;
   margin: -50px 0 0 -250px;
-  z-index: 30001;
+  z-index: 101;
   line-height: 100px;
 }
