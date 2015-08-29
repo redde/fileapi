@@ -1,3 +1,3 @@
 window.FileAPI =
-  debug: true
+  debug: false
   staticPath: '/js/jquery.fileapi/FileAPI/'
